@@ -18,6 +18,14 @@ h1 {
     font-weight: normal;
 }
 
+a {
+    color: #5D2182;
+}
+
+a:hover {
+    color: #7A48CC;
+}
+
 /********************************************************************************
  ** HEADER STYLES
  ********************************************************************************/
@@ -59,13 +67,16 @@ header .nav-bar.ui.secondary.pointing.inverted.menu {
 
 .main .wrapper {
     position: relative;
-    top: -16px;
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);
+    top: -24px;
 }
 
 .main .wrapper > .ui.segment.author {
     background-color: #E4E4E4;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.main .page {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.3);
 }
 
 .main .author h4 {
@@ -87,4 +98,18 @@ header .nav-bar.ui.secondary.pointing.inverted.menu {
     border-width: 16px 16px 0px 16px;
     border-color: #fff transparent transparent transparent;
     margin: -24px 0px 0px 24px;
+}
+
+/********************************************************************************
+ ** HOMEPAGE STYLES
+ ********************************************************************************/
+
+.hero {
+    padding: 128px 0px;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 72px;
+    color: #fff;
 }
